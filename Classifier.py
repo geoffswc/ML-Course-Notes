@@ -18,9 +18,9 @@ vectorizer = CountVectorizer(analyzer = "word",   \
 
 train_data_features = vectorizer.fit_transform(train["text"])
 
-#clf = RandomForestClassifier()
+clf = RandomForestClassifier()
 #clf = MLPClassifier()
-clf = MultinomialNB()
+#clf = MultinomialNB()
 #clf = LogisticRegression()
 #clf = SVC()
 
