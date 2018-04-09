@@ -14,7 +14,7 @@ vectorizer = CountVectorizer(analyzer = "word",   \
                              tokenizer = None,    \
                              preprocessor = None, \
                              stop_words = 'english',   \
-                             max_features=5000)
+                             max_features=10)
 
 train_data_features = vectorizer.fit_transform(train["text"])
 
