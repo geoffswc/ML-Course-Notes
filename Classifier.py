@@ -5,11 +5,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import MultinomialNB
 import pandas as pd
 import numpy as np
-import re
 
 train = pd.read_csv('data/trainReviews.tsv', header=0, delimiter="\t", quoting=3)
 
-# now use 5000
 vectorizer = CountVectorizer(analyzer = "word",   \
                              tokenizer = None,    \
                              preprocessor = None, \
@@ -33,7 +31,6 @@ clf = RandomForestClassifier()
 #            warm_start=False)
 
 clf.fit( train_data_features, train["category"] )
-
 
 test = pd.read_csv('data/testReviews.tsv', header=0, delimiter="\t", quoting=3)
 
