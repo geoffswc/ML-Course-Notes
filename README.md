@@ -27,3 +27,11 @@ Notes for ML course at UCSF Library
 ### Naive Bayes
 
 <img src="supervised_learning_visuals/naive_bayes.png" alt="hi" class="inline"/>
+
+## Exercises
+
+Swap out the Random Forest for a different ML algorithm. At their defaults, how to they perform?
+
+See if you can get better performance from the Random Forest by changing some of the parameters. What does n_estimators do?
+
+Take a look at the parameters for a vectorizer. What does ngram_range do? Can you view the output of the ngram range?
