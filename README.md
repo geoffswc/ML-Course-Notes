@@ -30,7 +30,7 @@ Notes for ML course at UCSF Library
 
 ## Exercises
 
-Swap out the Random Forest for a different ML algorithm. At their defaults, how to they perform?
+Swap out the Random Forest for a different ML algorithm. At their defaults, how do they perform?
 
 See if you can get better performance from the Random Forest by changing some of the parameters. What does n_estimators do?
 
