@@ -1,3 +1,7 @@
+# Note
+
+This repository is for an ML workshop held in 2018. Many of the explanations and visuals may still be useful, and the code will still run. However, this code doesn't use more recent features in scikit-learn that simply the data pipeline. You may want to take a look at https://github.com/geoffswc/Scikit-Learn-Workshop for a more up-to-date introduction. 
+
 # ML-Course-Notes
 
 Notes for ML course at UCSF Library
